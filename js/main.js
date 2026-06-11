@@ -464,9 +464,9 @@ function displayAllContacts() {
     }
 
 
-    if (cartona) {
-        document.querySelector(".contact-cards").innerHTML = cartona;
-    }
+
+    document.querySelector(".contact-cards").innerHTML = cartona;
+
 
 
 }
@@ -500,9 +500,9 @@ function displayFavContacts() {
         
         `
         }
-        if (cartona) {
-            document.querySelector("#fav-list-cards").innerHTML = cartona;
-        }
+
+        document.querySelector("#fav-list-cards").innerHTML = cartona;
+
 
     }
 
@@ -539,9 +539,9 @@ function displayEmergContacts() {
         }
 
     }
-    if (cartona) {
-        document.querySelector("#emerg-list-cards").innerHTML = cartona;
-    }
+
+    document.querySelector("#emerg-list-cards").innerHTML = cartona;
+
 
 }
 
